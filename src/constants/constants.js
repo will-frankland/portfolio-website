@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/admin-dashboard.png',
       tags: ['React', 'Tailwind', 'Syncfusion', 'Node', 'CSS', 'HTML'],
     source: 'https://syncfucsion-dashboard-site.netlify.app',
-    visit: 'https://syncfucsion-dashboard-site.netlify.app',
+    visit: 'https://github.com/will-frankland/admin-dashboard/tree/master/React/admin-dashboard',
     id: 0,
   },
   {
