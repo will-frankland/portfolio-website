@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Shop Admin Dashboard',
+    description: "A mock shop admin-dashboard built using React, Tailwind and Syncfusion that displays data such as financials, customers and employees as well as Calendar and Kanban apps and a variety of charts with random data. Also contains theme settings and the ability to turn on dark-mode.",
+      image: '/images/admin-dashboard.png',
+      tags: ['React', 'Tailwind', 'Syncfusion', 'Node', 'CSS', 'HTML'],
+    source: 'https://syncfucsion-dashboard-site.netlify.app',
+    visit: 'https://syncfucsion-dashboard-site.netlify.app',
     id: 0,
   },
   {
