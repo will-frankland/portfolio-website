@@ -12,7 +12,7 @@ const Hero = () => (
         Welcome to my portfolio!
       </SectionTitle>
       <SectionText>
-        I'm looking for Full Stack or Frontend Devloper work. See my projects below!
+        I'm looking for Full Stack or Frontend Devloper work. See my projects and learn more about me below.
       </SectionText>
       <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
     </LeftSection>

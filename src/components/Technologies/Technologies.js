@@ -17,8 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            JavaScript, React, Tailwind, Axios, HTML & CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,8 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases
+            Node.js, Express, SQL, Twilio
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,7 +35,6 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
             MaterialUi, Syncfusion
           </ListParagraph>
         </ListContainer>

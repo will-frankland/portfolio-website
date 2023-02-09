@@ -63,9 +63,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Motivated and driven with extensive experience in mechanical
-        engineering. I have pivoted to web-design after completing a bootcamp
-        with Lighthouse Labs in Toronto in May '22.
+        Motivated and driven with a mechanical
+        engineering background. I have pivoted to web-design after completing a bootcamp
+        with Lighthouse Labs in Toronto in May '22. <br /><br />
+        In my spare time you can find me at Muay Thai, walking Bear, my Samoyed, dining with friends or at concert!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
