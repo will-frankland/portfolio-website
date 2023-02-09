@@ -10,6 +10,38 @@ const Technologies = () =>  (
     <SectionText>
       I've worked with a range of frameworks and languages in web development.
     </SectionText>
+    <List>
+      <ListItem>
+        <DiFirebase size='3rem' />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size='3rem' />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Node.js and Databases
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size='3rem' />
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            MaterialUi, Syncfusion
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
   </Section>
 );
 
