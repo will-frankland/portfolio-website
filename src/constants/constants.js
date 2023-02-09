@@ -47,9 +47,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2015, text: 'Graduated college with Mechanical Engineering Diploma and began work as a Process Engineer', },
-  { year: 2018, text: 'Took a contractor role utilizing CAD for Royal Navy Submarines', },
-  { year: 2019, text: 'Moved to Toronto, Canada', },
+  { year: 2015, text: 'Graduated college in the UK with a Mechanical Engineering Diploma and began work as a Process Engineer', },
+  { year: 2018, text: 'Took a contracting role utilizing CAD for Royal Navy Submarines', },
+  { year: 2019, text: 'Moved to Toronto, Canada, began work as a Field Service Technician', },
   { year: 2022, text: 'Completed Web Development Bootcamp with Lighthouse Labs in Toronto', },
-  { year: 2023, text: 'Working on web portfolio', },
+  { year: 2023, text: 'Working on building my web portfolio', },
 ];
