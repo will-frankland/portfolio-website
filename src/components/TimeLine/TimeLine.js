@@ -49,7 +49,13 @@ const Timeline = () => {
         Motivated and driven with extensive experience in mechanical engineering. I have pivoted to web-design after completing a bootcamp with Lighthouse Labs in Toronto in May '22.
       </SectionText>
       <CarouselContainer ref={carouselRef}>
+        <>
+          {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT -1}>
 
+            </CarouselMobileScrollNode>
+          ))}
+        </>
       </CarouselContainer>
     </Section>
   );
