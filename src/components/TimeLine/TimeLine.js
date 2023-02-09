@@ -8,7 +8,7 @@ const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
   // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
+  const carouselRef = useRef();
 
   // const scroll = (node, left) => {
   //   return node.scrollTo({ left, behavior: 'smooth' });
@@ -43,9 +43,15 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>
+        Motivated and driven with extensive experience in mechanical engineering. I have pivoted to web-design after completing a bootcamp with Lighthouse Labs in Toronto in May '22.
+      </SectionText>
+      <CarouselContainer ref={carouselRef}>
+
+      </CarouselContainer>
+    </Section>
   );
 };
 
