@@ -41,13 +41,13 @@ const Timeline = () => {
     }
   };
 
-  // const handleScroll = () => {
-  //   if (carouselRef.current) {
-  //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+  const handleScroll = () => {
+    if (carouselRef.current) {
+      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
 
-  //     setActiveItem(index);
-  //   }
-  // }
+      setActiveItem(index);
+    }
+  }
 
   // // snap back to beginning of scroll when window is resized
   // // avoids a bug where content is covered up if coming from smaller screen
@@ -67,7 +67,7 @@ const Timeline = () => {
         engineering. I have pivoted to web-design after completing a bootcamp
         with Lighthouse Labs in Toronto in May '22.
       </SectionText>
-      <CarouselContainer ref={carouselRef}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
