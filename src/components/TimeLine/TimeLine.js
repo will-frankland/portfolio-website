@@ -120,6 +120,19 @@ const Timeline = () => {
           ))}
         </>
       </CarouselContainer>
+      <CarouselButtons>
+        {TimeLineData.map((item, index) => (
+          <CarouselButton 
+            key={index}
+            index={index}
+            active={activeItem}
+            onClick={(e) => handleClick(e, index)}
+            type="button"
+          >
+            <CarouselButtonDot active={activeItem}/>
+          </CarouselButton>
+        ))}
+      </CarouselButtons>
     </Section>
   );
 };
