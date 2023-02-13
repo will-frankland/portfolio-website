@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Shop Admin Dashboard',
-    description: "A mock shop admin-dashboard built using React, Tailwind and Syncfusion that displays data such as financials, customers and employees as well as Calendar and Kanban apps and a variety of charts with random data. Also contains theme settings and the ability to turn on dark-mode.",
+    description: "A mock shop admin-dashboard built using React, Tailwind and Syncfusion that displays data such as financials, customers and employees as well as Calendar and Kanban apps and a variety of charts with random data. Also contains theme settings and the ability to turn on dark-mode",
       image: '/images/admin-dashboard.png',
       tags: ['React', 'Tailwind', 'Syncfusion', 'Node.js', 'HTML', 'CSS'],
     source: 'https://syncfucsion-dashboard-site.netlify.app',
@@ -9,22 +9,31 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'WF Media (YouTube Clone)',
+    description: "A YouTube clone app build using React, Node, Axios, and MaterialUI. Users can browse new videos, search and see recommended videos, access channels with dedicated Channel Cards, control videos as well as see likes and views",
+      image: '/images/WF-media.png',
+      tags: ['React', 'Node.js', 'Axios', 'MUI', 'HTML', 'CSS'],
+    source: 'https://wfmedia-ytclone.netlify.app',
+    visit: 'https://github.com/will-frankland/youtube_clone',
+    id: 1,
+  },
+  {
     title: 'Thera-Match',
-    description:"A React app built to enable users to find and match with potential therapists based upon their criteria. Utilizes the 'tinder-swipe' mechanism when searching for therapists and then allows for instant chat, video calls, SMS notifications for therapists, a calendar to show appointments and contains a blog page.",
+    description:"A React app built to enable users to find and match with potential therapists based upon their criteria. Utilizes the 'tinder-swipe' mechanism when searching for therapists and then allows for instant chat, video calls, SMS notifications for therapists, a calendar to show appointments and contains a blog page",
     image: '/images/Thera-Match.png',
     tags: ['React', 'Express', 'Node.js', 'SQL', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/Thera-match',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Expense Tracker',
-    description: "A simple expense tracker built in React where users can add, remove and edit expenses.",
+    description: "A simple expense tracker built in React where users can add, remove and edit expenses",
       image: '/images/expense-tracker.png',
       tags: ['React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/expense-tracker-react',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Weather API App',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['JavaScript', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/weather-app-js',
-    id: 3,
+    id: 4,
   },
   {
     title: 'React Calculator',
@@ -42,7 +51,7 @@ export const projects = [
     tags: ['JavaScript', 'React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/calculator-react',
-    id: 3,
+    id: 5,
   },
 ];
 

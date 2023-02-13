@@ -26,8 +26,8 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
-  }
+    return node.scrollTo({ left, behavior: "smooth" });
+  };
 
   const handleClick = (e, i) => {
     e.preventDefault();
@@ -43,30 +43,45 @@ const Timeline = () => {
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round(
+        (carouselRef.current.scrollLeft /
+          (carouselRef.current.scrollWidth * 0.7)) *
+          TimeLineData.length
+      );
 
       setActiveItem(index);
     }
-  }
+  };
 
   // // snap back to beginning of scroll when window is resized
   // // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Motivated and driven with a mechanical
-        engineering background. I have pivoted to web-design after completing a bootcamp
-        with Lighthouse Labs in Toronto in May '22. <br /><br />
-        In my spare time you can find me at Muay Thai, walking Bear, my Samoyed, dining with friends or at concert!
+        In 2022 I completed a Bootcamp with Lighthouse Labs in Toronto, this
+        ignited my passion for coding and led me to dive into JavaScript and
+        React which have become the language and framework that I build the
+        majority of my current apps. Since then I have added a variety of
+        frameworks such as MaterialUI, Syncfusion, Tailwind, and apps such as
+        OpenAI to enhance and add complexity to my sites.
+        <br />
+        <br />
+        I love learning and self-development which has been built on throughout
+        my life and enhanced by my background in Mechanical Engineering where
+        problem-solving was a day-to-day occurrence.
+        <br />
+        <br />
+        In my spare time, you can find me at Muay Thai, walking Bear - my
+        Samoyed, dining with friends or at a concert!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -124,14 +139,14 @@ const Timeline = () => {
       </CarouselContainer>
       <CarouselButtons>
         {TimeLineData.map((item, index) => (
-          <CarouselButton 
+          <CarouselButton
             key={index}
             index={index}
             active={activeItem}
             onClick={(e) => handleClick(e, index)}
             type="button"
           >
-            <CarouselButtonDot active={activeItem}/>
+            <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
       </CarouselButtons>
