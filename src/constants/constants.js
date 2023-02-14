@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Thera-Match',
-    description:"A React app built to enable users to find and match with potential therapists based upon their criteria. Utilizes the 'tinder-swipe' mechanism when searching for therapists and then allows for instant chat, video calls, SMS notifications for therapists, a calendar to show appointments and contains a blog page",
+    description:"A React app built as part of my final group project which enables users to find and match with potential therapists based upon their criteria. Utilizes the 'tinder-swipe' mechanism when searching for therapists and then allows for instant chat, video calls, SMS notifications for therapists, a calendar to show appointments and contains a blog page",
     image: '/images/Thera-Match.png',
     tags: ['React', 'Express', 'Node.js', 'SQL', 'HTML', 'CSS'],
     source: '',

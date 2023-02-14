@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
-// impoprt this to constants
+// Could import this to constants
 const data = [
   { number: 2019, text: 'Relocated and settled in Toronto', },
   { number: 2021, text: 'Recieved Permenant Residency in Canada', },
@@ -11,9 +11,9 @@ const data = [
   { number: 2022, text: 'Started Muay Thai Kickboxing', }
 ];
 
-const Acomplishments = () => (
+const Accomplishments = () => (
   <Section>
-    <SectionTitle>Personal Acomplishments</SectionTitle>
+    <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -25,4 +25,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Accomplishments;
