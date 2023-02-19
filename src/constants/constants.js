@@ -9,13 +9,22 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Fine Dining Restaurant',
+    description: "A single-page website created in React that showcases a fine-dining restaurant complete with a color theme, chef's word, embedded video, a gallery with slider, newsletter subscription, and restaurant details alongside high-quality photos.",
+      image: '/images/restaurant-home.png',
+      tags: ['React', 'Node.js', 'HTML', 'CSS'],
+    source: 'https://fine-dining-app.netlify.app',
+    visit: 'https://github.com/will-frankland/restaurant-app',
+    id: 1,
+  },
+  {
     title: 'WF Media (YouTube Clone)',
     description: "A YouTube clone app build using React, Node, Axios, and MaterialUI. Users can browse new videos, search and see recommended videos, access channels with dedicated Channel Cards, control videos as well as see likes and views",
       image: '/images/WF-media.png',
       tags: ['React', 'Node.js', 'Axios', 'MUI', 'HTML', 'CSS'],
     source: 'https://wfmedia-ytclone.netlify.app',
     visit: 'https://github.com/will-frankland/youtube_clone',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Thera-Match',
@@ -24,16 +33,16 @@ export const projects = [
     tags: ['React', 'Express', 'Node.js', 'SQL', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/Thera-match',
-    id: 2,
+    id: 3,
   },
   {
     title: 'GPT-3 Clone',
-    description: "A single page React app created to clone GPT-3 and practice React alongside heavy CSS styling. The site utilizes an array of slick styles and components and is fully mobile responsive. Users can click the tabs in the header and the site will auto scroll to the specified section",
+    description: "A single-page React app created to clone GPT-3 and practice React alongside heavy CSS styling. The site utilizes an array of slick styles and components and is fully mobile responsive. Users can click the tabs in the header and the site will auto-scroll to the specified section",
       image: '/images/gpt3clone.png',
       tags: ['React', 'HTML', 'CSS'],
     source: 'https://openaiclone.netlify.app',
     visit: 'https://github.com/will-frankland/gpt3-wf',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Expense Tracker',
@@ -42,7 +51,7 @@ export const projects = [
       tags: ['React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/expense-tracker-react',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Weather API App',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['JavaScript', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/weather-app-js',
-    id: 5,
+    id: 6,
   },
   {
     title: 'React Calculator',
@@ -60,7 +69,7 @@ export const projects = [
     tags: ['JavaScript', 'React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/calculator-react',
-    id: 6,
+    id: 7,
   },
 ];
 
