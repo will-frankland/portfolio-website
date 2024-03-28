@@ -16,7 +16,7 @@ const Hero = () => (
         Welcome to my portfolio!
       </SectionTitle>
       <SectionText>
-        I'm looking for Full Stack or Frontend Developer work. See my projects
+        I'm currently working as a Junior Web Developer having made a switch from Mechanical Engineering. See my projects
         and learn more about me below.
       </SectionText>
       {/* <Button href="./public/will-frankland-resume.pdf" download>

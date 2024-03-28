@@ -1,12 +1,30 @@
 export const projects = [
   {
+    title: 'PixelWhiz',
+    description: "This SaaS app utilizes Cloudinary AI which allows users to modify images in a variety of ways. They can remove items from images, manipulate image colours, generate fill and restore old images.",
+      image: '/images/Homepage.png',
+      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'Clerk', 'MongoDB', 'ShadCN', 'Stripe'],
+    source: 'https://pixelwhiz-aa3t-fuodhwd1y-willfranklands-projects.vercel.app',
+    visit: 'https://github.com/will-frankland/saas_project',
+    id: 0,
+  },
+  {
+    title: 'CarHub',
+    description: "A mock car rental website that utilizes API calls to collect car images and data, this can then be filtered by year or fuel and search functionality for Make and Model also exists.",
+      image: '/images/Landing_Section.png',
+      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'HTML', 'CSS'],
+    source: 'https://car-showcase-mpmq-4l40y4xlk-will-frankland.vercel.app',
+    visit: 'https://github.com/will-frankland/car_showcase',
+    id: 1,
+  },
+  {
     title: 'Shop Admin Dashboard',
     description: "A mock shop admin-dashboard built using React, Tailwind and Syncfusion that displays data such as financials, customers and employees as well as Calendar and Kanban apps and a variety of charts with random data. Also contains theme settings and the ability to turn on dark-mode",
       image: '/images/admin-dashboard.png',
       tags: ['React', 'Tailwind', 'Syncfusion', 'Node.js', 'HTML', 'CSS'],
     source: 'https://syncfucsion-dashboard-site.netlify.app',
     visit: 'https://github.com/will-frankland/admin-dashboard/tree/master/React/admin-dashboard',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Fine Dining Restaurant',
@@ -15,7 +33,7 @@ export const projects = [
       tags: ['React', 'Node.js', 'HTML', 'CSS'],
     source: 'https://fine-dining-app.netlify.app',
     visit: 'https://github.com/will-frankland/restaurant-app',
-    id: 1,
+    id: 3,
   },
   {
     title: 'WF Media (YouTube Clone)',
@@ -24,7 +42,7 @@ export const projects = [
       tags: ['React', 'Node.js', 'Axios', 'MUI', 'HTML', 'CSS'],
     source: 'https://wfmedia-ytclone.netlify.app',
     visit: 'https://github.com/will-frankland/youtube_clone',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Thera-Match',
@@ -33,7 +51,7 @@ export const projects = [
     tags: ['React', 'Express', 'Node.js', 'SQL', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/Thera-match',
-    id: 3,
+    id: 5,
   },
   {
     title: 'GPT-3 Clone',
@@ -42,7 +60,7 @@ export const projects = [
       tags: ['React', 'HTML', 'CSS'],
     source: 'https://openaiclone.netlify.app',
     visit: 'https://github.com/will-frankland/gpt3-wf',
-    id: 4,
+    id: 6,
   },
   {
     title: 'Expense Tracker',
@@ -51,7 +69,7 @@ export const projects = [
       tags: ['React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/expense-tracker-react',
-    id: 5,
+    id: 7,
   },
   {
     title: 'Weather API App',
@@ -60,7 +78,7 @@ export const projects = [
     tags: ['JavaScript', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/weather-app-js',
-    id: 6,
+    id: 8,
   },
   {
     title: 'React Calculator',
@@ -69,7 +87,7 @@ export const projects = [
     tags: ['JavaScript', 'React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/calculator-react',
-    id: 7,
+    id: 9,
   },
 ];
 
@@ -78,5 +96,5 @@ export const TimeLineData = [
   { year: 2018, text: 'Took a contracting role utilizing CAD for Royal Navy Submarines', },
   { year: 2019, text: 'Moved to Toronto, Canada, began work as a Field Service Technician', },
   { year: 2022, text: 'Completed Web Development Bootcamp with Lighthouse Labs in Toronto', },
-  { year: 2023, text: 'Working on building my web portfolio', },
+  { year: 2023, text: 'First Web Developer job!', },
 ];

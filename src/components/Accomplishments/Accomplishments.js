@@ -7,8 +7,8 @@ import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 const data = [
   { number: 2019, text: 'Relocated and settled in Toronto', },
   { number: 2021, text: 'Recieved Permenant Residency in Canada', },
-  { number: 2022, text: 'Began Learning to code in JavaScript'},
-  { number: 2022, text: 'Started Muay Thai Kickboxing', }
+  { number: 2022, text: 'Completed Web Dev bootcamp'},
+  { number: 2023, text: 'First Web Developer job', }
 ];
 
 const Accomplishments = () => (
