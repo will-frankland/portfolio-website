@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'CarePulse Medical',
+    description: "CarePulse is a medical booking site where patients can create an account, input their details and medical history and book appointments to see a doctor. There is an admin panel that is password protected (123456) which allows admin users to confirm, reschedule or cancel appointments.",
+      image: '/images/carepulse-homepage.png',
+      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'Appwrite', 'ShadCN'],
+    source: 'https://care-pulse-inky.vercel.app',
+    visit: 'https://github.com/will-frankland/care-pulse',
+    id: 0,
+  },
+  {
     title: 'Horizon Banking',
     description: "Horizon banking app allows users to connect their accounts via Plaid and Dwolla securely and safely. Once connected users can transfer funds between accounts, manage their spending and saving with accurate and live spending information and connect more banks and accounts",
       image: '/images/banking_app/Homepage_banking.png',
-      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'Appwrite', ''],
+      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'Appwrite'],
     source: 'https://banking-lf1rw5po8-willfranklands-projects.vercel.app',
     visit: 'https://github.com/will-frankland/banking_app',
-    id: 0,
+    id: 1,
   },
   {
     title: 'PixelWhiz',
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'MongoDB'],
     source: 'https://pixelwhiz-aa3t-fuodhwd1y-willfranklands-projects.vercel.app',
     visit: 'https://github.com/will-frankland/saas_project',
-    id: 1,
+    id: 2,
   },
   {
     title: 'CarHub',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'HTML', 'CSS'],
     source: 'https://car-showcase-mpmq-4l40y4xlk-will-frankland.vercel.app',
     visit: 'https://github.com/will-frankland/car_showcase',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Shop Admin Dashboard',
@@ -33,7 +42,7 @@ export const projects = [
       tags: ['React', 'Tailwind', 'Syncfusion', 'Node.js', 'HTML', 'CSS'],
     source: 'https://syncfucsion-dashboard-site.netlify.app',
     visit: 'https://github.com/will-frankland/admin-dashboard/tree/master/React/admin-dashboard',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Fine Dining Restaurant',
@@ -42,7 +51,7 @@ export const projects = [
       tags: ['React', 'Node.js', 'HTML', 'CSS'],
     source: 'https://fine-dining-app.netlify.app',
     visit: 'https://github.com/will-frankland/restaurant-app',
-    id: 4,
+    id: 5,
   },
   {
     title: 'WF Media (YouTube Clone)',
@@ -51,7 +60,7 @@ export const projects = [
       tags: ['React', 'Node.js', 'Axios', 'MUI', 'HTML', 'CSS'],
     source: 'https://wfmedia-ytclone.netlify.app',
     visit: 'https://github.com/will-frankland/youtube_clone',
-    id: 5,
+    id: 6,
   },
   {
     title: 'Thera-Match',
@@ -60,7 +69,7 @@ export const projects = [
     tags: ['React', 'Express', 'Node.js', 'SQL', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/Thera-match',
-    id: 6,
+    id: 7,
   },
   {
     title: 'GPT-3 Clone',
@@ -69,7 +78,7 @@ export const projects = [
       tags: ['React', 'HTML', 'CSS'],
     source: 'https://openaiclone.netlify.app',
     visit: 'https://github.com/will-frankland/gpt3-wf',
-    id: 7,
+    id: 8,
   },
   {
     title: 'Expense Tracker',
@@ -78,7 +87,7 @@ export const projects = [
       tags: ['React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/expense-tracker-react',
-    id: 8,
+    id: 9,
   },
   {
     title: 'Weather API App',
@@ -87,7 +96,7 @@ export const projects = [
     tags: ['JavaScript', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/weather-app-js',
-    id: 9,
+    id: 10,
   },
   {
     title: 'React Calculator',
@@ -96,7 +105,7 @@ export const projects = [
     tags: ['JavaScript', 'React', 'HTML', 'CSS'],
     source: '',
     visit: 'https://github.com/will-frankland/calculator-react',
-    id: 10,
+    id: 11,
   },
 ];
 
