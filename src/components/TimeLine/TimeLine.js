@@ -70,9 +70,8 @@ const Timeline = () => {
         In 2022 I completed a Bootcamp with Lighthouse Labs in Toronto, this
         ignited my passion for coding and led me to dive into JavaScript and
         React which have become the language and framework that I build the
-        majority of my current apps. Since then I have added a variety of
-        frameworks such as MaterialUI, Syncfusion, Tailwind, and apps such as
-        OpenAI to enhance and add complexity to my sites.
+        majority of my current apps. Since starting my role in March 2023 I have
+        added NextJs, TypeScript and MongoDB to my professional experience.
         <br />
         <br />
         I love learning and self-development which has been built on throughout
@@ -80,7 +79,7 @@ const Timeline = () => {
         problem-solving was a day-to-day occurrence.
         <br />
         <br />
-        In my spare time, you can find me at Muay Thai, walking Bear - my
+        In my spare time, you can find me hiking, building my portfolio, walking Bear - my
         Samoyed, dining with friends or at a concert!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

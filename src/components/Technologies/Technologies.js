@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            JavaScript, TypeScript, ReactJs, NextJs, Tailwind, Axios, HTML & CSS
+            JavaScript, TypeScript, ReactJs, NextJs, TailwindCSS, Axios, HTML & CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,7 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Node.js, Express, SQL, MongoDb, Twilio
+            NodeJs, Express, SQL, MongoDb, Appwrite
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            MaterialUi, Syncfusion
+            MaterialUi, ShadCN, Syncfusion, Twilio
           </ListParagraph>
         </ListContainer>
       </ListItem>

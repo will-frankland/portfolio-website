@@ -5,10 +5,10 @@ import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
 // Could import this to constants
 const data = [
-  { number: 2019, text: 'Relocated and settled in Toronto', },
-  { number: 2021, text: 'Recieved Permenant Residency in Canada', },
+  { number: 2019, text: 'Moved to Toronto from the UK', },
+  { number: 2021, text: 'Became a Permenant Resident in Canada', },
   { number: 2022, text: 'Completed Web Dev bootcamp'},
-  { number: 2023, text: 'First Web Developer job', }
+  { number: 2023, text: 'Began working as a web developer for MeaningfulWork Inc', }
 ];
 
 const Accomplishments = () => (
